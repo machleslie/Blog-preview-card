@@ -38,10 +38,14 @@ body {
   margin-bottom: 0;
   font-size:large;
 }
+
 .titles > h1 {
   font-weight: bolder;
   margin-top: 0px;
   font-size: 2rem;
+}
+.hach:hover{
+    color: #f4d04e;
 }
 .titles > h3 {
   font-weight: 400;
