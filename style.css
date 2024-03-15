@@ -16,8 +16,7 @@ body{
     align-items: center;
     width: 450px;
     margin-top: 15%;
-    position: relative;
-    z-index: 2;
+    box-shadow: 10px 10px ;
 
 }
 .imagediv{
@@ -71,17 +70,7 @@ body{
     height: 40px;
     margin-right: 5px;
 }
-.anothadiv{
-    background: black;
-    width: 450px;
-    height: 570px;
-    position: absolute;
-    top: 80px;
-    border-radius: 15px;
-    right: 520px;
-    /* z-index: 1; */
-    
-}
+
 .attribution{
     margin-top:7%;
 }
@@ -91,14 +80,7 @@ body{
         margin-left: 10%;
         margin-right: 10%;
         
-    }
-    /* .imagediv>img{
-        width: 350px;
-    } */
-    .anothadiv{
-        margin-right: 20px;
-        left: 210px;
-    }
+    }    
 }
 @media screen and (max-width: 480px) {
     .maindiv{
@@ -110,9 +92,5 @@ body{
     .imagediv>img{
         width: 350px;
     }
-    .anothadiv{
-        left: 40px;
-        width: 400px;
-        margin-right: 20px;
-    }
+    
 }
