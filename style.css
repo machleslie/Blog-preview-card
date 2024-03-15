@@ -1,96 +1,86 @@
-body{
-    font-family: "Figtree";
-    background: #F4D04E;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+body {
+  font-family: "Figtree";
+  background: #f4d04e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
-.maindiv{
-    border: solid;
-    border-width: 2px;
-    border-radius: 20px;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 450px;
-    margin-top: 15%;
-    box-shadow: 10px 10px ;
-
+.maindiv {
+  border: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  margin-top: 15%;
+  box-shadow: 10px 10px;
 }
-.imagediv{
-    justify-content: center;
+.imagediv {
+  justify-content: center;
 }
-.imagediv>img{
-    border-radius: 20px;
-    justify-content: center;
-    margin-top: 20px;
-    width: 400px;
+.imagediv > img {
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 400px;
 }
-.titles>h2{
-    background: #F4D04E;
-    color: black;
-    border-radius: 5px;
-    width: fit-content;
-    padding-right: 5px;
-    padding-left: 5px;
-    font-weight: 800;
-    margin-bottom: 0;
+.titles > h2 {
+  background: #f4d04e;
+  color: black;
+  border-radius: 5px;
+  width: fit-content;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: 800;
+  margin-bottom: 0;
 }
-.titles>h1{
-    font-weight: bolder;
-    margin-top: 0px;
-    font-size: 2rem;
+.titles > h1 {
+  font-weight: bolder;
+  margin-top: 0px;
+  font-size: 2rem;
 }
-.titles>h3{
-    font-weight:400;
-    font-size: 1rem;
+.titles > h3 {
+  font-weight: 400;
+  font-size: 1rem;
 }
-.description{
-    flex-wrap: wrap;
-    color: #7F7F7F;
-    font-weight: 500;
+.description {
+  flex-wrap: wrap;
+  color: #7f7f7f;
+  font-weight: 500;
 }
-.wordssection{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom:0 ;
-    font-size: 1rem;
+.wordssection {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0;
+  font-size: 1rem;
 }
-.user{
-    display: flex;
-    flex-direction: row;
-    font-weight: bolder;
-    align-items: center;
-    margin-bottom: 6px;
+.user {
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  align-items: center;
+  margin-bottom: 6px;
 }
-.user>img{
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
-}
-
-.attribution{
-    margin-top:7%;
+.user > img {
+  width: 40px;
+  height: 40px;
+  /* margin-right: 5px; */
 }
 
-@media screen and (max-width: 768px) {
-    .maindiv{
-        margin-left: 10%;
-        margin-right: 10%;
-        
-    }    
+.attribution {
+  margin-top: 7%;
 }
+
 @media screen and (max-width: 480px) {
-    .maindiv{
-        width: 400px;
-        margin-left: 10%;
-        margin-right: 10%;
-        
-    }
-    .imagediv>img{
-        width: 350px;
-    }
-    
+  .maindiv {
+    /* width: 300px; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* .imagediv>img{
+        width: 250px;
+    } */
 }
